@@ -1,6 +1,6 @@
 # Swarupa Pedapalli
 # Pratice Mapper
-f = open("purchases.txt","r")  # open file, read-only
+f = open("purchase.txt","r")  # open file, read-only
 o = open("a..txt", "w") # open file, write
 for line in f:  
     rowList = line.strip().split("    ") 
