@@ -1,7 +1,7 @@
 # Swarupa Pedapalli
 # Pratice Mapper
 f = open("purchase.txt","r")  # open file, read-only
-o = open("a.txt", "w") # open file, write
+o = open("swaoutput.txt", "w") # open file, write
 
 for line in f:  
     rowList = line.strip().split("    ") 

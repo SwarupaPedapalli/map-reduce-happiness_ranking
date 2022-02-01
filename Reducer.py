@@ -1,5 +1,5 @@
-s = open("s.txt","r")
-r = open("r.txt", "w")
+s = open("swasorter.txt","r")
+r = open("swareducer.txt", "w")
 
 thisKey = ""
 thisValue = 0.0
