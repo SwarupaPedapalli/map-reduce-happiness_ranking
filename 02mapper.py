@@ -10,4 +10,4 @@ for line in sys.stdin:
     Country,Region,Happiness_Rank,HappinessScore,Standard_Error = datalist
 
     # print intermediate key-value pairs to standard output
-    print(Region,"\t",1)
+    print(Country,"\t",1)
