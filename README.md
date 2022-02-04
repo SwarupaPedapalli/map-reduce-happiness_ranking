@@ -10,7 +10,7 @@ Finding the happiness region count
  - From the results we got to know that central and eastern europe counts high compared to the other regions.Mapper output gives us the regions(since key value "region" is selected).Later when reducing is done it gave us the count of the regions.
 
 
-![Happiness Region Count](image/RegionCount.png)
+![Happiness Region Count](image/RegionCount.png) </br>
 
 
 
