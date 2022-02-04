@@ -1,4 +1,4 @@
-Country,Region,Happiness Rank,Happiness Score,Standard Error
+Country,Region,Happiness_Rank,HappinessScore,Standard_Error
 Switzerland,Western Europe,1,7.587,0.03411
 Iceland,Western Europe,2,7.561,0.04884
 Denmark,Western Europe,3,7.527,0.03328

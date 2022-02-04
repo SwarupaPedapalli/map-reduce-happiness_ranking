@@ -1,4 +1,4 @@
-# Case 2 - Reducer using standard input and output
+# Swarupa 2 - Reducer using standard input and output
 # Easy to test locally in the terminal
 
 import sys
@@ -9,15 +9,15 @@ thisValue = 0.0
 for line in sys.stdin:
   datalist = line.strip().split('\t')
   if (len(datalist) == 2) : 
-    disasterType, count = datalist
+    Australia, count = datalist
 
-    if disasterType != thisKey:   # we've moved to another key
+    if Australia != thisKey:   # we've moved to another key
       if thisKey:
         # output the previous key-summaryvalue result
         print(thisKey,'\t',thisValue)
 
       # start over for each new key
-      thisKey = disasterType 
+      thisKey = Australia
       thisValue = 0.0
   
     # apply the aggregation function
@@ -25,3 +25,4 @@ for line in sys.stdin:
 
 # output the final key-summaryvalue result outside the loop
 print(thisKey,'\t',thisValue)
+
